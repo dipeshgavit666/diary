@@ -21,7 +21,7 @@ function PostForm() {
         return;
       }
 
-      const response = await fetch("http://localhost:4000/api/posts", {
+      const response = await fetch("https://diary-api-j1kj.onrender.com/api/posts", {
         method: "POST",
         body: JSON.stringify(post),
         headers: {

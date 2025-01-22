@@ -18,7 +18,7 @@ function Home() {
           return;
         }
     
-        const response = await fetch("http://localhost:4000/api/posts", {
+        const response = await fetch("https://diary-api-j1kj.onrender.com/api/posts", {
           headers: {
             Authorization: `Bearer ${user.token}`,
           },

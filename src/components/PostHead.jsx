@@ -21,7 +21,7 @@ function PostHead({ post }) {
 
     try {
       const response = await fetch(
-        `http://localhost:4000/api/posts/${post._id}`,
+        `https://diary-api-j1kj.onrender.com/api/posts/${post._id}`,
         {
           method: "DELETE",
           headers: {
