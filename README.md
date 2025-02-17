@@ -1,3 +1,8 @@
+Deployed on render.com
+you can visit this project: https://diary-h7h6.onrender.com
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
