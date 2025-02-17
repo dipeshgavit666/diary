@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { HashLoader } from "react-spinners";
+import { BarLoader } from "react-spinners";
 import { usePostsContext } from "../hooks/usePostsContext.js";
 import { useAuthContext } from "../hooks/useAuthContext.js";
 import PostHead from "../components/PostHead";
@@ -61,7 +61,7 @@ function Home() {
   if (!posts) {
     return (
       <div className="spinner">
-        <HashLoader color="#36d7b7" size={200} />
+        <BarLoader color="#00ff75" height={4}/>
       </div>
     );
   }
